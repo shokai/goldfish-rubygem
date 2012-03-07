@@ -1,0 +1,11 @@
+History.txt
+Manifest.txt
+README.rdoc
+Rakefile
+lib/goldfish-poi.rb
+lib/goldfish/poi.rb
+script/console
+script/destroy
+script/generate
+test/test_goldfish-poi.rb
+test/test_helper.rb
