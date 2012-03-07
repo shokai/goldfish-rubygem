@@ -8,7 +8,18 @@ rubygem for client of goldfish-poi (https://github.com/shokai/goldfish-poi).
 
 == SYNOPSIS:
 
-  FIX (code sample of usage)
+wait response with comet.
+
+    require 'goldfish-poi'
+    
+    poi = GoldFish::Poi.new
+    res = poi.get(tag_name)
+
+
+post data.
+
+    poi.post(tag_name, 'hello!')
+
 
 == INSTALL:
 
