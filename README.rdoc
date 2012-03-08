@@ -1,16 +1,16 @@
-= goldfish-poi
+= goldfish rubygem
 
-* http://github.com/shokai/goldfish-poi-rubygem
+* http://github.com/shokai/goldfish-rubygem
 
 == DESCRIPTION:
 
-rubygem for client of goldfish-poi (https://github.com/shokai/goldfish-poi).
+rubygem for client of GoldFish (https://github.com/shokai/goldfish) and POI (https://github.com/shokai/goldfish-poi).
 
 == SYNOPSIS:
 
 wait response with comet.
 
-    require 'goldfish-poi'
+    require 'goldfish'
     
     poi = GoldFish::Poi.new
     res = poi.get(tag_name)
@@ -23,7 +23,7 @@ post data.
 
 == INSTALL:
 
-* gem install goldfish-poi
+* gem install goldfish
 
 == LICENSE:
 
